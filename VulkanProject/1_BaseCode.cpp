@@ -8,8 +8,8 @@
 #include <stdexcept>
 #include <cstdlib>
 
-const std::uint32_t WIDTH = 800;
-const std::uint32_t HEIGHT = 600;
+constexpr std::uint32_t WIDTH = 800;
+constexpr std::uint32_t HEIGHT = 600;
 
 class HelloTriangleApplication
 {

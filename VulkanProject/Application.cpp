@@ -4,9 +4,7 @@
 // Vulkanデバッグメッセージャー作成
 /* 検証レイヤとは
  * Vulkan APIはドライバのオーバーヘッドを最小限に抑えるというアイデアに基づいて設計されている。
- * デフォルトでAPIのエラーチェックが非常に限られている。
- *
- */
+ * デフォルトでAPIのエラーチェックが非常に限られている。*/
 VkResult Application::CreateDebugUtilsMessengerEXT(VkInstance instance, const VkDebugUtilsMessengerCreateInfoEXT* pCreateInfo,
 	const VkAllocationCallbacks* pAllocator, VkDebugUtilsMessengerEXT* pDebugMessenger)
 {
