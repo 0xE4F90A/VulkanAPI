@@ -206,7 +206,7 @@ private:
 
 int main(int argc, char* argv[])
 {
-	HelloTriangleApplication app;
+	HelloTriangleApplication app{};
 
 	try
 	{

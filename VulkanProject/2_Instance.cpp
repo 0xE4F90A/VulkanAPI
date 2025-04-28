@@ -87,7 +87,7 @@ private:
 
 int main(int argc, char* argv[])
 {
-	HelloTriangleApplication app;
+	HelloTriangleApplication app{};
 
 	try
 	{
@@ -100,7 +100,7 @@ int main(int argc, char* argv[])
 	}
 	catch (...)
 	{
-		std::cerr << "Unknow Error" << std::endl;
+		std::cerr << "Unknow Error.\n" << std::endl;
 		return EXIT_FAILURE;
 	}
 

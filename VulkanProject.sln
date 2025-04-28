@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.DrawingTriangle", "Vulkan
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.VertexBuffers", "VertexBuffers\VertexBuffers.vcxproj", "{E7EB19FA-EA43-423A-8CE0-D5BE586D88DA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.Uniform buffers", "Uniform buffers\Uniform buffers.vcxproj", "{5711C3E2-6C0A-468C-A086-D0E0D914CE7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{E7EB19FA-EA43-423A-8CE0-D5BE586D88DA}.Release|x64.Build.0 = Release|x64
 		{E7EB19FA-EA43-423A-8CE0-D5BE586D88DA}.Release|x86.ActiveCfg = Release|Win32
 		{E7EB19FA-EA43-423A-8CE0-D5BE586D88DA}.Release|x86.Build.0 = Release|Win32
+		{5711C3E2-6C0A-468C-A086-D0E0D914CE7B}.Debug|x64.ActiveCfg = Debug|x64
+		{5711C3E2-6C0A-468C-A086-D0E0D914CE7B}.Debug|x64.Build.0 = Debug|x64
+		{5711C3E2-6C0A-468C-A086-D0E0D914CE7B}.Debug|x86.ActiveCfg = Debug|Win32
+		{5711C3E2-6C0A-468C-A086-D0E0D914CE7B}.Debug|x86.Build.0 = Debug|Win32
+		{5711C3E2-6C0A-468C-A086-D0E0D914CE7B}.Release|x64.ActiveCfg = Release|x64
+		{5711C3E2-6C0A-468C-A086-D0E0D914CE7B}.Release|x64.Build.0 = Release|x64
+		{5711C3E2-6C0A-468C-A086-D0E0D914CE7B}.Release|x86.ActiveCfg = Release|Win32
+		{5711C3E2-6C0A-468C-A086-D0E0D914CE7B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

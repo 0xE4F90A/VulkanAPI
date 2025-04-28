@@ -343,7 +343,7 @@ private:
 	}
 };
 
-int main()
+int main(int argc, char* argv[])
 {
 	HelloTriangleApplication app;
 
@@ -358,7 +358,7 @@ int main()
 	}
 	catch (...)
 	{
-		std::cerr << "Unknown ERROR." << std::endl;
+		std::cerr << "Unknown Error.\n" << std::endl;
 		return EXIT_FAILURE;
 	}
 
